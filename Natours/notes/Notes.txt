@@ -1,0 +1,37 @@
+Three Pillars of writing good HTML and CSS
+- responsive design 
+    - fluid layouts
+    - media queries 
+    - responsive images
+    - correct units
+    - desktop first vs mobile first
+- Maintainable and scalable code
+    - Clean
+    - Easy to understand
+    - growth
+    - reusable
+    - how to organize files
+    - how to name classes
+    - how to structure HTML
+- Web Performance
+    - Less HTTP requests
+    - less code
+    - compress code
+    - use CSS preprocessor 
+    - Less images
+    - compress images
+
+
+How CSS works behind the scenes
+    Load HTML --> Parse HTML --------> DOM
+                       |
+                       |
+                Load CSS --> Resolve conflicting CSS declarations (cascade) --> CSS Object Model
+                             Process Final CSS Values
+                                                                                        |
+                                                                                        |
+                                                                                        |
+                                                                                        |
+                Final Rendered Website             <---                  Website Rendering:  <-- Render Tree
+                                                                    the visual formatting 
+                                                                    model             
